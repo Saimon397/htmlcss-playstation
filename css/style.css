@@ -53,10 +53,41 @@ body {
 }
 
 .caro-item:hover {
-    transform: translate(0, -10%);
+    transform: translate(0, -5%);
 }
 
-/***COLOR***/
+#PS5-section .my-active:hover {
+    border-radius: 10%;
+    box-shadow: 0 0 0 2px #0072CE;
+}
+
+#PS5-section .my-active-2 {
+    opacity: 70%;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+#PS5-section .my-active-2:hover {
+    opacity: 100%;
+}
+
+#hero2 .hero2-background {
+    height: 80vh;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+#nuove-uscite {
+    background-color: rgb(31, 31, 31);
+}
+
+#nuove-uscite img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/***COLORS***/
 
 .my-txt-grey {
     color: rgb(112, 112, 112);
