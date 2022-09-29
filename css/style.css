@@ -1,31 +1,63 @@
-:root{
-    --black: rgba(31, 31, 31, 1);
-    --blue: rgba(58, 109, 231, 1);
-    --light-grey: rgba(190, 188, 187, 1);
-    --dark-blue: rgba(22, 28, 59, 1);
-    --red: rgba(205, 61, 15, 1);
-    --lavish-white: rgba(217, 218, 220, 1);
-}
+/***STYLE***/
+/***COMMON***/
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.sony {
-    color: white;
-}
-.mybg-black{
-    background-color: var(--black);
+/***HEADER***/
+
+.my-header-top-bar img {
+    width: 70px;
+    height: 15px;
 }
 
-.mybg-light-grey{
-    background-color: var(--light-grey);
+.my-lens img {
+    width: 30px;
 }
 
-.mybg-dark-blue{
-    background-color: var(--dark-blue);
+/***MAIN***/
+
+#hero {
+    height: 80vh;
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
 }
 
-.mybg-blue{
-    background-color: var(--blue);
+#hero img {
+    margin-top: 235px;
+}
+
+.btn-danger {
+    background-color: rgb(205, 61, 15);
+}
+
+.btn-danger:hover {
+    background-color: rgb(161, 48, 11) !important;
+}
+
+#carousel img {
+    border-radius: 10px;
+}
+
+#carousel .my-active:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
+}
+
+.caro-item {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.caro-item:hover {
+    transform: translate(0, -10%);
+}
+
+/***COLOR***/
+
+.my-txt-grey {
+    color: rgb(112, 112, 112);
 }
