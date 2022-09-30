@@ -12,8 +12,62 @@ body {
     height: 15px;
 }
 
-.my-lens img {
-    width: 30px;
+.logo img {
+    width: 80px;
+    height: 40px;
+}
+
+header .nav-hover:hover {
+    color: #0072CE !important;
+}
+
+.chevron-on,
+.chev-none {
+    width: 10px;
+}
+
+.nav-hover:hover .chevron-on {
+    display: none;
+}
+
+.chev-none {
+    display: none;
+}
+
+.nav-hover:hover .chev-none {
+    display: inline;
+}
+
+.dropdown-a {
+    text-decoration: none;
+}
+
+.dropdown-a:hover {
+    text-decoration: underline;
+}
+
+header ul {
+    list-style: disc;
+}
+
+::marker {
+    color: #0072CE;
+    font-size: 1.5em;
+}
+
+.lens {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.my_btn_black:hover {
+    color: white;
+    border: 1px solid white !important;
+    outline: 2px solid black;
+}
+
+.a-hov:hover {
+    color: #0072CE !important;
 }
 
 /***MAIN***/
@@ -112,6 +166,7 @@ body {
 /***FOOTER***/
 
 footer {
+    width: 100%;
     background-color: rgb(0, 67, 156);
 }
 
