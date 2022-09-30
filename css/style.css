@@ -206,8 +206,8 @@ footer .col.bottom a {
 #log-page {
     background-image: url(../img/wallpaper_accedi.jpg);
     background-size: cover;
-    height: 100px;
-    width: 100%;
+    height: auto;
+    width: auto;
     padding: 0;
     top: 0;
     justify-content: center;
@@ -224,12 +224,12 @@ footer .col.bottom a {
 .box-log {
     background-color: white;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0 0;
+    padding: auto;
     margin-top: 20px;
 }
 
@@ -237,37 +237,76 @@ footer .col.bottom a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 30px;
+    padding: 100px 30px;
+}
+
+.main-form p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.form-mid p {
+    font-size: 15px;
+    margin-top: 30px;
 }
 
 .form-mid {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
+    padding: 0 20px;
 }
 
 .my-box1 {
-background-color: black;
-width: 100%;
-align-items: center;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    align-items: center;
 }
 
 .my-box2 {
-    background-color: #0072CE;
+    background-color: rgb(0, 67, 156);
     width: 100%;
 }
 
 #logo2 {
     width: 120px;
     height: 50px;
+    margin-left: 140px;
 }
 
 #logo3 {
     filter: invert();
     width: 120px;
     height: 50px;
+    margin-left: 140px;
 }
 
 .text-box {
+    width: 300px;
+    height: 35px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-bottom: 20px;
+}
+
+.btn-blu {
+    background-color: rgb(60, 99, 208);
+    color: white;
+    padding: 8px 130px;
+    border-radius: 3px;
     width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-bianco {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 8px 80px;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
 }
