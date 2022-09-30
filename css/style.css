@@ -36,6 +36,7 @@ header .nav-hover:hover {
 
 .nav-hover:hover .chev-none {
     display: inline;
+    transform: rotateZ(180deg);
 }
 
 .dropdown-a {
@@ -201,3 +202,72 @@ footer .col.bottom a {
 }
 
 /***ACCEDI-PAGE***/
+
+#log-page {
+    background-image: url(../img/wallpaper_accedi.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-containerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-log {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 0;
+    margin-top: 20px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.form-mid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.my-box1 {
+background-color: black;
+width: 100%;
+align-items: center;
+}
+
+.my-box2 {
+    background-color: #0072CE;
+    width: 100%;
+}
+
+#logo2 {
+    width: 120px;
+    height: 50px;
+}
+
+#logo3 {
+    filter: invert();
+    width: 120px;
+    height: 50px;
+}
+
+.text-box {
+    width: 100%;
+}
