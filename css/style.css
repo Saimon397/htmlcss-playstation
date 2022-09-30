@@ -97,6 +97,10 @@ header ul {
     border-radius: 10px;
 }
 
+#carousel .my-active {
+    border: 2px solid transparent;
+}
+
 #carousel .my-active:hover {
     border: 2px solid white;
     box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
@@ -155,8 +159,8 @@ header ul {
     outline: auto;
 }
 
- .btn-primary:hover {
-   outline: auto !important;
+.btn-primary:hover {
+    outline: auto !important;
 }
 
 .btn-light:hover {
