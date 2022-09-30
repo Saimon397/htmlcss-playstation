@@ -89,6 +89,8 @@ header ul {
 
 .btn-danger:hover {
     background-color: rgb(161, 48, 11) !important;
+    color: white;
+    border: 1px solid white !important;
 }
 
 #carousel img {
@@ -147,6 +149,18 @@ header ul {
 .btn1 {
     background-color: rgb(217, 218, 220);
     border: rgb(217, 218, 220);
+}
+
+.btn1:hover {
+    outline: auto;
+}
+
+ .btn-primary:hover {
+   outline: auto !important;
+}
+
+.btn-light:hover {
+    outline: auto;
 }
 
 #PS-Now {
